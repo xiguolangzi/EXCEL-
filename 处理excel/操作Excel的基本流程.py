@@ -33,5 +33,6 @@ sht.range("A1").value = "hahaha"
 wb.save()
 wb.close()
 
-# 9.关闭应用
+# 9.关闭应用 kill 和 quit 都可以
 app3.kill()
+app3.quit()
