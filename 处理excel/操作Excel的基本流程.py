@@ -9,16 +9,17 @@ print(pid)
 app2 = xw.App()
 pid = app2.pid
 print(pid)
-
 '''
 
 # 3.查看创建app的个数，即打开excel应用的个数
 apps = xw.apps
 print(apps.count)
 
+
 # 4.激活应用
-app3 = xw.apps[8444]
+app3 = xw.apps[6472]
 app3.activate()
+
 
 # 5.添加工作簿
 wb = app3.books.add()
@@ -35,4 +36,4 @@ wb.close()
 
 # 9.关闭应用 kill 和 quit 都可以
 app3.kill()
-app3.quit()
+#app3.quit()
