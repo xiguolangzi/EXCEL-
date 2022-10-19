@@ -13,8 +13,8 @@ book = xw.Book()
 # 2.打开表页
 sht = book.sheets["Sheet1"]
 # 3.输入单元格内容
-sht.range("A3").value = "hello office"
-sht.range("B3").value = "hello office2"
+sht.range("A3").value = "hello office6"
+sht.range("B3").value = "hello office26"
 
 # 4.保存 book.save(） , 创建并保存 book.save("工作簿1.xlsx")
 book.save("工作簿1.xlsx")
